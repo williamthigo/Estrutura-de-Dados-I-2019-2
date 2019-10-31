@@ -6,7 +6,7 @@
 typedef struct heap {
     int length;
     int heap_size;
-    int VET[100];
+    int VET[MAX];
 } Heap;
 
 int parent(int pos);
