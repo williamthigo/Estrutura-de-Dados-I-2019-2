@@ -15,6 +15,7 @@ int right(int pos);
 Heap *heap_create();
 void build_max_heap(Heap *f, int *vet, int len);
 void heap_destroy(Heap *f);
+void troca(int *a, int *b);
 void max_heapify(Heap *f, int pos);
 int heap_maximum(Heap *f);
 int heap_extract_maximum(Heap *f);
